@@ -8,7 +8,6 @@ public class MyClass {
          Меняем их местами.
          Ноль не считается ни положительным, ни отрицательным.
          */
-        Scanner sc=new Scanner(System.in);
         int arr[]=new int[20];
         for(int i=0;i<arr.length;++i)
             arr[i]=-10+(int)(Math.random()*21);
@@ -36,7 +35,5 @@ public class MyClass {
 
         for(int a:arr)      //выводим новую последовательность
             System.out.println(a);
-
-        sc.close();
     }
 }
